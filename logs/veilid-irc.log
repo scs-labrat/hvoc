@@ -1,0 +1,668 @@
+2026-02-27 14:50:47 INFO  [virc.main] ============================================================
+2026-02-27 14:50:47 INFO  [virc.main] veilid-irc starting — nick=d8rh8r
+2026-02-27 14:50:47 INFO  [virc.main] ============================================================
+2026-02-27 15:04:47 INFO  [virc.net] Connecting to veilid-server localhost:5959...
+2026-02-27 15:04:47 INFO  [virc.net] JSON API connected
+2026-02-27 15:04:47 INFO  [virc.net] Routing context created (safety is default)
+2026-02-27 15:07:05 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 15:07:05 INFO  [virc.main] VeilidIRC shutdown complete
+2026-02-27 15:07:17 INFO  [virc.main] ============================================================
+2026-02-27 15:07:17 INFO  [virc.main] veilid-irc starting — nick=d8rh8r
+2026-02-27 15:07:17 INFO  [virc.main] ============================================================
+2026-02-27 15:07:19 INFO  [virc.net] Connecting to veilid-server localhost:5959...
+2026-02-27 15:07:19 INFO  [virc.net] JSON API connected
+2026-02-27 15:07:19 INFO  [virc.net] Routing context created (safety is default)
+2026-02-27 15:07:53 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 15:07:53 INFO  [virc.main] VeilidIRC shutdown complete
+2026-02-27 15:08:53 INFO  [virc.main] ============================================================
+2026-02-27 15:08:53 INFO  [virc.main] veilid-irc starting — nick=d8rh8r
+2026-02-27 15:08:53 INFO  [virc.main] ============================================================
+2026-02-27 15:08:55 INFO  [virc.net] Connecting to veilid-server localhost:5959...
+2026-02-27 15:08:55 INFO  [virc.net] JSON API connected
+2026-02-27 15:08:55 INFO  [virc.net] Routing context created (safety is default)
+2026-02-27 15:08:55 INFO  [virc.net] Current attachment state: Attaching
+2026-02-27 15:08:55 INFO  [virc.net] Waiting up to 120s for network readiness...
+2026-02-27 15:08:56 INFO  [virc.net] Attachment state: Attaching → Attaching
+2026-02-27 15:09:03 INFO  [virc.net] Attachment state: Attaching → OverAttached
+2026-02-27 15:09:46 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 15:09:46 INFO  [virc.main] VeilidIRC shutdown complete
+2026-02-27 15:14:46 INFO  [virc.main] ============================================================
+2026-02-27 15:14:46 INFO  [virc.main] veilid-irc starting — nick=d8rh8r
+2026-02-27 15:14:46 INFO  [virc.main] ============================================================
+2026-02-27 15:14:48 INFO  [virc.net] Connecting to veilid-server localhost:5959...
+2026-02-27 15:14:48 INFO  [virc.net] JSON API connected
+2026-02-27 15:14:48 INFO  [virc.net] Routing context created (safety is default)
+2026-02-27 15:14:48 INFO  [virc.net] Current attachment state: Attaching
+2026-02-27 15:14:48 INFO  [virc.net] Waiting up to 120s for network readiness...
+2026-02-27 15:14:49 INFO  [virc.net] Attachment state: Attaching → Attaching
+2026-02-27 15:14:56 INFO  [virc.net] Attachment state: Attaching → OverAttached
+2026-02-27 15:14:56 INFO  [virc.net] Network ready! State: OverAttached
+2026-02-27 15:14:57 INFO  [virc.net] Private route allocated on attempt 1
+2026-02-27 15:14:57 INFO  [virc.net] Private route created
+2026-02-27 15:14:57 DEBUG [virc.directory] Loading directory from TableDb...
+2026-02-27 15:14:57 INFO  [virc.channel] Creating channel #general (topic='', modes=nt)
+2026-02-27 15:14:57 DEBUG [virc.channel] Creating DHT record (32 subkeys)...
+2026-02-27 15:14:57 INFO  [virc.channel] DHT record created: VLD0:i5GiwTXr8hvoARfWg_4aIe3MNp-K-tbbTo-csfXr508:Q9cZzOoMXToXGW4togdXWlmFQIiDi3zYaswYreRQDZY
+2026-02-27 15:14:57 DEBUG [virc.channel] Claiming slot in #general...
+2026-02-27 15:14:57 DEBUG [virc.channel]   Checking subkey 1 in #general
+2026-02-27 15:15:07 INFO  [virc.channel]   Claimed empty subkey 1 in #general
+2026-02-27 15:15:08 DEBUG [virc.channel] Starting poll loop for #general
+2026-02-27 15:15:08 DEBUG [virc.channel] Starting heartbeat loop for #general
+2026-02-27 15:15:08 DEBUG [virc.channel] Sent join to 0/1 members in #general
+2026-02-27 15:15:53 INFO  [virc.main] Command: /dir create
+2026-02-27 15:15:53 INFO  [virc.main] User invoked /dir create
+2026-02-27 15:15:53 INFO  [virc.directory] Creating new directory DHT record...
+2026-02-27 15:15:53 INFO  [virc.directory] Directory created: key=VLD0:S9gpRkur5nEKzo-e0ktVKTKMP6m7UzeRpEQ6P4_L5zk:iD3hLWTHQeRAZA8ldj4-J-RlkVqU64RhGsO7siXvi8A
+2026-02-27 15:15:53 INFO  [virc.main] Directory created: VLD0:S9gpRkur5nEKzo-e0ktVKTKMP6m7UzeRpEQ6P4_L5zk:iD3hLWTHQeRAZA8ldj4-J-RlkVqU64RhGsO7siXvi8A
+2026-02-27 15:16:37 INFO  [virc.main] Command: /topic HVCK - Veilid Overlay Chat Network
+2026-02-27 15:16:37 DEBUG [virc.channel] Writing metadata for #general
+2026-02-27 15:16:38 DEBUG [virc.channel] Sent topic to 0/1 members in #general
+2026-02-27 15:16:48 INFO  [virc.main] Command: /publish 
+2026-02-27 15:16:48 INFO  [virc.main] User invoked /publish for #general
+2026-02-27 15:16:48 INFO  [virc.directory] Publishing channel #general (code=PT87) by d8rh8r
+2026-02-27 15:16:48 DEBUG [virc.directory] Pass 1: scanning for existing entry to update...
+2026-02-27 15:16:58 WARNING [virc.directory] DHT read timeout: subkey=1 (10.0s)
+2026-02-27 15:17:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:17:27 INFO  [virc.main] Command: /help 
+2026-02-27 15:17:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:18:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:18:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:19:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:19:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:20:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:20:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:21:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:21:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:22:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:22:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:23:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:23:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:24:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:24:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:25:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:25:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:26:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:26:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:27:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:27:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:28:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:28:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:29:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:29:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:30:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:30:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:31:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:31:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:32:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:32:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:33:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:33:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:34:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:34:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:35:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:35:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:36:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:36:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:37:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:37:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:38:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:38:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:39:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:39:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:40:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:40:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:41:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:41:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:42:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:42:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:43:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:43:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:44:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:44:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 INFO  [virc.main] Command: /rooms 
+2026-02-27 15:45:15 DEBUG [virc.directory] Listing channels from directory...
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=1: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=2: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=3: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=4: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=5: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=6: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=7: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=8: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=9: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=10: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=11: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=12: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=13: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=14: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=15: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=16: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=17: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=18: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=19: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=20: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=21: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=22: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=23: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=24: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=25: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=26: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=27: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=28: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=29: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=30: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=31: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=32: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=33: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=34: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=35: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=36: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=37: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=38: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=39: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=40: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=41: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=42: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=43: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=44: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=45: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=46: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=47: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=48: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=49: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=50: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=51: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=52: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=53: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=54: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=55: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=56: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=57: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=58: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=59: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=60: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=61: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=62: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 DEBUG [virc.directory] DHT read error: subkey=63: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:15 INFO  [virc.directory] Listed 0 channels from directory
+2026-02-27 15:45:31 INFO  [virc.main] Command: /publish 
+2026-02-27 15:45:31 INFO  [virc.main] User invoked /publish for #general
+2026-02-27 15:45:31 INFO  [virc.directory] Publishing channel #general (code=PT87) by d8rh8r
+2026-02-27 15:45:31 DEBUG [virc.directory] Pass 1: scanning for existing entry to update...
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=1: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=2: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=3: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=4: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=5: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=6: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=7: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=8: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=9: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=10: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=11: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=12: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=13: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=14: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=15: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=16: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=17: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=18: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=19: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=20: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=21: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=22: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=23: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=24: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=25: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=26: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=27: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=28: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=29: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=30: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=31: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=32: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=33: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=34: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=35: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=36: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=37: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=38: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=39: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=40: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=41: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=42: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=43: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=44: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=45: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=46: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=47: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=48: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=49: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=50: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=51: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=52: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=53: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=54: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=55: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=56: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=57: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=58: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=59: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=60: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=61: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=62: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=63: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] Pass 2: scanning for empty/stale slot...
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=1: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 1, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=1: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=2: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 2, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=2: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=3: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 3, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=3: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=4: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 4, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=4: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=5: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 5, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=5: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=6: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 6, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=6: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=7: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 7, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=7: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=8: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 8, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=8: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=9: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 9, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=9: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=10: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 10, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=10: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=11: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 11, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=11: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=12: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 12, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=12: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=13: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 13, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=13: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=14: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 14, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=14: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=15: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 15, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=15: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=16: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 16, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=16: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=17: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 17, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=17: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=18: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 18, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=18: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=19: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 19, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=19: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=20: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 20, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=20: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=21: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 21, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=21: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=22: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 22, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=22: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=23: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 23, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=23: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=24: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 24, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=24: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=25: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 25, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=25: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=26: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 26, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=26: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=27: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 27, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=27: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=28: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 28, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=28: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=29: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 29, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=29: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=30: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 30, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=30: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=31: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 31, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=31: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=32: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 32, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=32: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=33: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 33, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=33: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=34: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 34, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=34: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=35: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 35, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=35: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=36: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 36, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=36: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=37: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 37, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=37: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=38: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 38, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=38: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=39: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 39, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=39: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=40: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 40, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=40: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=41: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 41, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=41: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=42: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 42, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=42: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=43: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 43, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=43: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=44: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 44, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=44: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=45: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 45, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=45: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=46: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 46, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=46: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=47: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 47, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=47: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=48: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 48, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=48: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=49: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 49, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=49: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=50: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 50, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=50: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=51: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 51, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=51: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=52: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 52, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=52: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=53: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 53, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=53: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=54: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 54, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=54: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=55: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 55, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=55: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=56: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 56, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=56: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=57: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 57, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=57: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=58: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 58, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=58: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=59: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 59, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=59: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=60: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 60, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=60: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=61: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 61, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=61: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=62: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 62, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=62: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 DEBUG [virc.directory] DHT read error: subkey=63: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 INFO  [virc.directory]   Empty slot at subkey 63, writing
+2026-02-27 15:45:31 WARNING [virc.directory] DHT write error: subkey=63: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:45:31 ERROR [virc.directory] Directory full! All 63 slots occupied
+2026-02-27 15:45:31 ERROR [virc.main] Publish failed: Directory full (all 63 slots occupied)
+2026-02-27 15:45:39 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:46:06 INFO  [virc.main] Command: /dir create
+2026-02-27 15:46:06 INFO  [virc.main] User invoked /dir create
+2026-02-27 15:46:06 INFO  [virc.directory] Creating new directory DHT record...
+2026-02-27 15:46:06 ERROR [virc.main] Dir create failed: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:46:09 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:46:27 INFO  [virc.main] Command: /dir 
+2026-02-27 15:46:40 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:47:00 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 15:47:00 INFO  [virc.net] IRCNet.stop() — beginning shutdown...
+2026-02-27 15:47:00 DEBUG [virc.net] Shutting down channel manager...
+2026-02-27 15:47:00 INFO  [virc.channel] ChannelManager.shutdown() — stopping...
+2026-02-27 15:47:00 DEBUG [virc.channel] Sent quit to 0/1 members in #general
+2026-02-27 15:47:00 DEBUG [virc.channel] Parting channel #general...
+2026-02-27 15:47:00 DEBUG [virc.channel] Cancelling 2 background tasks...
+2026-02-27 15:47:00 INFO  [virc.channel] ChannelManager shutdown complete
+2026-02-27 15:47:00 DEBUG [virc.net] Channel manager shutdown complete
+2026-02-27 15:47:00 DEBUG [virc.net] Cancelling 1 background tasks...
+2026-02-27 15:47:00 DEBUG [virc.net] Releasing private route...
+2026-02-27 15:47:00 DEBUG [virc.net] Private route release: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:47:00 DEBUG [virc.net] Releasing routing context...
+2026-02-27 15:47:00 DEBUG [virc.net] Routing context release: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:47:00 DEBUG [virc.net] Releasing API connection...
+2026-02-27 15:47:00 DEBUG [virc.net] API release: invalid state
+2026-02-27 15:47:00 INFO  [virc.net] IRCNet shutdown complete
+2026-02-27 15:47:00 INFO  [virc.main] VeilidIRC shutdown complete
+2026-02-27 15:47:27 INFO  [virc.main] ============================================================
+2026-02-27 15:47:27 INFO  [virc.main] veilid-irc starting — nick=d8rh8r
+2026-02-27 15:47:27 INFO  [virc.main] ============================================================
+2026-02-27 15:47:30 INFO  [virc.net] Connecting to veilid-server localhost:5959...
+2026-02-27 15:47:30 INFO  [virc.net] JSON API connected
+2026-02-27 15:47:30 INFO  [virc.net] Routing context created (safety is default)
+2026-02-27 15:47:30 INFO  [virc.net] Current attachment state: Attaching
+2026-02-27 15:47:30 INFO  [virc.net] Waiting up to 120s for network readiness...
+2026-02-27 15:47:31 INFO  [virc.net] Attachment state: Attaching → Attaching
+2026-02-27 15:47:36 INFO  [virc.net] Attachment state: Attaching → OverAttached
+2026-02-27 15:47:36 INFO  [virc.net] Network ready! State: OverAttached
+2026-02-27 15:47:36 INFO  [virc.net] Private route allocated on attempt 1
+2026-02-27 15:47:36 INFO  [virc.net] Private route created
+2026-02-27 15:47:36 DEBUG [virc.directory] Loading directory from TableDb...
+2026-02-27 15:47:36 INFO  [virc.channel] Creating channel #general (topic='', modes=nt)
+2026-02-27 15:47:36 DEBUG [virc.channel] Creating DHT record (32 subkeys)...
+2026-02-27 15:47:36 INFO  [virc.channel] DHT record created: VLD0:zX8rFX8tBMUCOReHb0qBuQkNgDigbFAACvHfWwSYp78:kl4okHSm_fVnfSStDoxu4JmBa--KT2DAzFINwWzYQqw
+2026-02-27 15:47:37 DEBUG [virc.channel] Claiming slot in #general...
+2026-02-27 15:47:37 DEBUG [virc.channel]   Checking subkey 1 in #general
+2026-02-27 15:47:47 INFO  [virc.channel]   Claimed empty subkey 1 in #general
+2026-02-27 15:47:47 DEBUG [virc.channel] Starting poll loop for #general
+2026-02-27 15:47:47 DEBUG [virc.channel] Starting heartbeat loop for #general
+2026-02-27 15:47:47 DEBUG [virc.channel] Sent join to 0/1 members in #general
+2026-02-27 15:48:15 INFO  [virc.main] Command: /dir 
+2026-02-27 15:48:26 INFO  [virc.main] Command: /dir create
+2026-02-27 15:48:26 INFO  [virc.main] User invoked /dir create
+2026-02-27 15:48:26 INFO  [virc.directory] Creating new directory DHT record...
+2026-02-27 15:48:26 INFO  [virc.directory] Directory created: key=VLD0:cgV9SLqFU8IXKYj_Shuhik58rzqoU4QMGDwUunN0spo:t0anuXpb9RWph18vZVNsc3tIAtk5Fo2b2rnJupIv1Xo
+2026-02-27 15:48:27 INFO  [virc.main] Directory created: VLD0:cgV9SLqFU8IXKYj_Shuhik58rzqoU4QMGDwUunN0spo:t0anuXpb9RWph18vZVNsc3tIAtk5Fo2b2rnJupIv1Xo
+2026-02-27 15:48:38 INFO  [virc.main] Command: /publish 
+2026-02-27 15:48:38 INFO  [virc.main] User invoked /publish for #general
+2026-02-27 15:48:38 INFO  [virc.directory] Publishing channel #general (code=A493) by d8rh8r
+2026-02-27 15:48:38 DEBUG [virc.directory] Pass 1: scanning for existing entry to update...
+2026-02-27 15:48:48 WARNING [virc.directory] DHT read timeout: subkey=1 (10.0s)
+2026-02-27 15:48:56 INFO  [virc.main] Command: /dir share
+2026-02-27 15:49:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:49:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:50:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:50:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:51:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:51:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:52:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:52:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:53:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:53:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:54:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:54:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:55:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:55:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:56:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:56:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:57:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:57:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:58:17 INFO  [virc.main] Command: /dir share
+2026-02-27 15:58:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:58:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:59:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 15:59:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:00:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:00:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:01:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:01:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:02:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:02:48 INFO  [virc.main] Command: /share 
+2026-02-27 16:02:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:03:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:03:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:04:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:04:48 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:05:18 DEBUG [virc.channel] Heartbeat write error in #general: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:05:42 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 16:05:42 INFO  [virc.net] IRCNet.stop() — beginning shutdown...
+2026-02-27 16:05:42 DEBUG [virc.net] Shutting down channel manager...
+2026-02-27 16:05:42 INFO  [virc.channel] ChannelManager.shutdown() — stopping...
+2026-02-27 16:05:42 DEBUG [virc.channel] Sent quit to 0/1 members in #general
+2026-02-27 16:05:42 DEBUG [virc.channel] Parting channel #general...
+2026-02-27 16:05:42 DEBUG [virc.channel] Cancelling 2 background tasks...
+2026-02-27 16:05:42 INFO  [virc.channel] ChannelManager shutdown complete
+2026-02-27 16:05:42 DEBUG [virc.net] Channel manager shutdown complete
+2026-02-27 16:05:42 DEBUG [virc.net] Cancelling 1 background tasks...
+2026-02-27 16:05:42 DEBUG [virc.net] Releasing private route...
+2026-02-27 16:05:42 DEBUG [virc.net] Private route release: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:05:42 DEBUG [virc.net] Releasing routing context...
+2026-02-27 16:05:42 DEBUG [virc.net] Routing context release: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:05:42 DEBUG [virc.net] Releasing API connection...
+2026-02-27 16:05:42 DEBUG [virc.net] API release: invalid state
+2026-02-27 16:05:42 INFO  [virc.net] IRCNet shutdown complete
+2026-02-27 16:05:42 INFO  [virc.main] VeilidIRC shutdown complete
+2026-02-27 16:20:58 INFO  [virc.main] ============================================================
+2026-02-27 16:20:58 INFO  [virc.main] veilid-irc starting — nick=d8rh8r
+2026-02-27 16:20:58 INFO  [virc.main] ============================================================
+2026-02-27 16:21:00 INFO  [virc.net] Connecting to veilid-server localhost:5959...
+2026-02-27 16:21:00 INFO  [virc.net] JSON API connected
+2026-02-27 16:21:00 INFO  [virc.net] Routing context created (safety is default)
+2026-02-27 16:21:00 INFO  [virc.net] Current attachment state: Attaching
+2026-02-27 16:21:00 INFO  [virc.net] Waiting up to 120s for network readiness...
+2026-02-27 16:21:01 INFO  [virc.net] Attachment state: Attaching → Attaching
+2026-02-27 16:21:08 INFO  [virc.net] Attachment state: Attaching → OverAttached
+2026-02-27 16:21:08 INFO  [virc.net] Network ready! State: OverAttached
+2026-02-27 16:21:09 INFO  [virc.net] Private route allocated on attempt 1
+2026-02-27 16:21:09 INFO  [virc.net] Private route created
+2026-02-27 16:21:09 DEBUG [virc.directory] Loading directory from TableDb...
+2026-02-27 16:21:09 DEBUG [virc.directory] Opening existing directory DHT record: VLD0:cgV9SLqFU8IXKYj_Shuhik58rzqoU4QMGDwUunN0spo:t0anuXpb9RWph18vZVNsc3tIAtk5Fo2b2rnJupIv1Xo
+2026-02-27 16:21:09 INFO  [virc.directory] Directory loaded: VLD0:cgV9SLqFU8IXKYj_Shuhik58rzqoU4QMGDwUunN0spo:t0anuXpb9RWph18vZVNsc3tIAtk5Fo2b2rnJupIv1Xo
+2026-02-27 16:21:09 INFO  [virc.channel] Creating channel #general (topic='', modes=nt)
+2026-02-27 16:21:09 DEBUG [virc.channel] Creating DHT record (32 subkeys)...
+2026-02-27 16:21:09 INFO  [virc.channel] DHT record created: VLD0:GivUFyAXfG0f19P0gMY_v4QZGW0a5Bbhuhrl7TvpEIo:0Ky5OhO9cocbpQs_60ROJ_GoY76BxWZnB5DuT6m2zKo
+2026-02-27 16:21:09 DEBUG [virc.channel] Claiming slot in #general...
+2026-02-27 16:21:09 DEBUG [virc.channel]   Checking subkey 1 in #general
+2026-02-27 16:21:19 INFO  [virc.channel]   Claimed empty subkey 1 in #general
+2026-02-27 16:21:19 DEBUG [virc.channel] Starting poll loop for #general
+2026-02-27 16:21:19 DEBUG [virc.channel] Starting heartbeat loop for #general
+2026-02-27 16:21:19 DEBUG [virc.channel] Sent join to 0/1 members in #general
+2026-02-27 16:21:37 INFO  [virc.main] Command: /share qr
+2026-02-27 16:21:38 INFO  [virc.qr] QR code saved: C:\Users\d8rh8r\Downloads\VOC\qrcodes\voc_channel_general.png (592x682)
+2026-02-27 16:22:34 INFO  [virc.net] Attachment state: OverAttached → FullyAttached
+2026-02-27 16:32:33 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 16:32:33 INFO  [virc.net] IRCNet.stop() — beginning shutdown...
+2026-02-27 16:32:33 DEBUG [virc.net] Shutting down channel manager...
+2026-02-27 16:32:33 INFO  [virc.channel] ChannelManager.shutdown() — stopping...
+2026-02-27 16:32:33 DEBUG [virc.channel] Sent quit to 0/1 members in #general
+2026-02-27 16:32:33 DEBUG [virc.channel] Parting channel #general...
+2026-02-27 16:32:34 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 16:32:34 INFO  [virc.net] IRCNet.stop() — beginning shutdown...
+2026-02-27 16:32:34 DEBUG [virc.net] Shutting down channel manager...
+2026-02-27 16:32:34 INFO  [virc.channel] ChannelManager.shutdown() — stopping...
+2026-02-27 16:32:34 DEBUG [virc.channel] Sent quit to 0/1 members in #general
+2026-02-27 16:32:34 DEBUG [virc.channel] Parting channel #general...
+2026-02-27 16:32:37 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 16:32:37 INFO  [virc.net] IRCNet.stop() — beginning shutdown...
+2026-02-27 16:32:37 DEBUG [virc.net] Shutting down channel manager...
+2026-02-27 16:32:37 INFO  [virc.channel] ChannelManager.shutdown() — stopping...
+2026-02-27 16:32:37 DEBUG [virc.channel] Sent quit to 0/1 members in #general
+2026-02-27 16:32:37 DEBUG [virc.channel] Parting channel #general...
+2026-02-27 16:32:39 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 16:32:39 INFO  [virc.net] IRCNet.stop() — beginning shutdown...
+2026-02-27 16:32:39 DEBUG [virc.net] Shutting down channel manager...
+2026-02-27 16:32:39 INFO  [virc.channel] ChannelManager.shutdown() — stopping...
+2026-02-27 16:32:39 DEBUG [virc.channel] Sent quit to 0/1 members in #general
+2026-02-27 16:32:39 DEBUG [virc.channel] Parting channel #general...
+2026-02-27 16:32:40 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 16:32:40 INFO  [virc.net] IRCNet.stop() — beginning shutdown...
+2026-02-27 16:32:40 DEBUG [virc.net] Shutting down channel manager...
+2026-02-27 16:32:40 INFO  [virc.channel] ChannelManager.shutdown() — stopping...
+2026-02-27 16:32:40 DEBUG [virc.channel] Sent quit to 0/1 members in #general
+2026-02-27 16:32:40 DEBUG [virc.channel] Parting channel #general...
+2026-02-27 16:32:41 DEBUG [virc.channel] Cancelling 2 background tasks...
+2026-02-27 16:32:41 INFO  [virc.channel] ChannelManager shutdown complete
+2026-02-27 16:32:41 DEBUG [virc.net] Channel manager shutdown complete
+2026-02-27 16:32:41 DEBUG [virc.net] Cancelling 1 background tasks...
+2026-02-27 16:32:41 DEBUG [virc.net] Releasing private route...
+2026-02-27 16:33:08 INFO  [virc.main] VeilidIRC.shutdown() called
+2026-02-27 16:33:08 INFO  [virc.net] IRCNet.stop() — beginning shutdown...
+2026-02-27 16:33:08 DEBUG [virc.net] Cancelling 0 background tasks...
+2026-02-27 16:33:08 DEBUG [virc.net] Releasing private route...
+2026-02-27 16:33:08 DEBUG [virc.net] Private route release: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:33:08 DEBUG [virc.net] Releasing routing context...
+2026-02-27 16:33:08 DEBUG [virc.net] Routing context release: Don't send requests on a closed VeilidAPI object
+2026-02-27 16:33:08 DEBUG [virc.net] Releasing API connection...
+2026-02-27 16:33:08 DEBUG [virc.net] API release: invalid state
+2026-02-27 16:33:08 INFO  [virc.net] IRCNet shutdown complete
+2026-02-27 16:33:08 INFO  [virc.main] VeilidIRC shutdown complete
+2026-02-27 16:46:53 INFO  [virc.main] ============================================================
+2026-02-27 16:46:53 INFO  [virc.main] veilid-irc starting — nick=d8rh8r
+2026-02-27 16:46:53 INFO  [virc.main] ============================================================
+2026-02-27 16:46:55 INFO  [virc.net] Connecting to veilid-server localhost:5959...
+2026-02-27 16:46:55 INFO  [virc.net] JSON API connected
+2026-02-27 16:46:55 INFO  [virc.net] Routing context created (safety is default)
+2026-02-27 16:46:55 INFO  [virc.net] Current attachment state: Attaching
+2026-02-27 16:46:55 INFO  [virc.net] Waiting up to 120s for network readiness...
+2026-02-27 16:46:56 INFO  [virc.net] Attachment state: Attaching → Attaching
+2026-02-27 16:47:02 INFO  [virc.net] Attachment state: Attaching → OverAttached
+2026-02-27 16:47:02 INFO  [virc.net] Network ready! State: OverAttached
+2026-02-27 16:47:03 INFO  [virc.net] Private route allocated on attempt 1
+2026-02-27 16:47:03 INFO  [virc.net] Private route created
+2026-02-27 16:47:03 DEBUG [virc.directory] Loading directory from TableDb...
+2026-02-27 16:47:03 DEBUG [virc.directory] Opening existing directory DHT record: VLD0:cgV9SLqFU8IXKYj_Shuhik58rzqoU4QMGDwUunN0spo:t0anuXpb9RWph18vZVNsc3tIAtk5Fo2b2rnJupIv1Xo
+2026-02-27 16:47:03 INFO  [virc.directory] Directory loaded: VLD0:cgV9SLqFU8IXKYj_Shuhik58rzqoU4QMGDwUunN0spo:t0anuXpb9RWph18vZVNsc3tIAtk5Fo2b2rnJupIv1Xo
+2026-02-27 16:47:03 INFO  [virc.channel] Creating channel #general (topic='', modes=nt)
+2026-02-27 16:47:03 DEBUG [virc.channel] Creating DHT record (32 subkeys)...
+2026-02-27 16:47:03 INFO  [virc.channel] DHT record created: VLD0:snx3C64ie493MkRBALZkJGRD5FSut4LbhKrjRzJZKYs:hhot5_H-cYls0nNPWE2dw_41xTUoSbMac00zyqko4mg
+2026-02-27 16:47:03 DEBUG [virc.channel] Claiming slot in #general...
+2026-02-27 16:47:03 DEBUG [virc.channel]   Checking subkey 1 in #general
+2026-02-27 16:47:08 INFO  [virc.net] Attachment state: OverAttached → OverAttached
+2026-02-27 16:47:13 INFO  [virc.channel]   Claimed empty subkey 1 in #general
+2026-02-27 16:47:13 DEBUG [virc.channel] Starting poll loop for #general
+2026-02-27 16:47:13 DEBUG [virc.channel] Starting heartbeat loop for #general
+2026-02-27 16:47:13 DEBUG [virc.channel] Sent join to 0/1 members in #general
+2026-02-27 16:48:19 INFO  [virc.net] Attachment state: OverAttached → FullyAttached
+2026-02-27 16:51:55 DEBUG [virc.channel] Sent msg to 0/1 members in #general
+2026-02-27 16:52:01 INFO  [virc.main] Command: /share 
+2026-02-27 16:58:56 INFO  [virc.net] Attachment state: FullyAttached → OverAttached
+2026-02-27 16:59:03 INFO  [virc.net] Attachment state: OverAttached → OverAttached
+2026-02-27 17:00:24 INFO  [virc.net] Attachment state: OverAttached → FullyAttached
+2026-02-27 17:02:34 INFO  [virc.net] Attachment state: FullyAttached → FullyAttached

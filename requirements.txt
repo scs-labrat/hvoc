@@ -1,0 +1,4 @@
+veilid>=0.4.0
+textual>=1.0.0
+qrcode[pil]>=7.0
+pyzbar>=0.1.9

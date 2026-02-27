@@ -1,0 +1,522 @@
+15:04:46  INFO corectx: Veilid API starting up
+15:04:46  INFO corectx: Build Target: x86_64-pc-windows-msvc
+15:04:46  INFO corectx: Program Name: veilid-server
+15:04:46  INFO corectx: Features:     ["argon2", "blake2", "blake3", "chacha20", "chacha20poly1305", "curve25519-dalek", "default", "default-tokio", "ed25519-dalek", "enable-crypto-vld0", "instrument", "rt-tokio", "tokio", "x25519-dalek"]
+15:04:46  INFO corectx: Version:      0.5.2
+15:04:46  INFO rtab: Public Keys: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:04:46  INFO rtab: Node Ids: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:04:47  INFO stor: Loading record index: local
+15:04:47  INFO stor: Finished loading local in 2.179ms
+15:04:47  INFO stor: Loading record index: remote
+15:04:47  INFO stor: Finished loading remote in 0.525ms
+15:04:47  INFO corectx: Veilid API startup complete
+15:04:47  INFO net: Auto-enabled detection of address changes: global_ipv4=false, global_ipv6=false
+15:04:47  INFO net: UDP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:04:47  INFO net: WS: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:04:47  INFO net: TCP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:04:47  INFO rtab: [PublicInternet] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:04:47  INFO rtab: [PublicInternet] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:04:47  INFO rtab: [PublicInternet] changed network: address types EnumSet()->EnumSet(IPV4)
+15:04:47  INFO rtab: [PublicInternet] changed network: capabilities []->[ROUT, SGNL, RLAY, DIAL, DHTV, APPM]
+15:04:47  INFO rtab: [LocalNetwork] added dial info:
+    Direct:udp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:udp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:udp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:udp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:udp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:udp|10.216.198.234:5150
+    Direct:udp|169.254.83.107:5150
+    Direct:udp|172.29.160.1:5150
+    Direct:udp|192.168.1.101:5150
+    Direct:udp|192.168.116.1:5150
+    Direct:tcp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:tcp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:tcp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:tcp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:tcp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:tcp|10.216.198.234:5150
+    Direct:tcp|169.254.83.107:5150
+    Direct:tcp|172.29.160.1:5150
+    Direct:tcp|192.168.1.101:5150
+    Direct:tcp|192.168.116.1:5150
+    Direct:ws|[fe80::4699:a234:bbfa:3531]:5150/ws
+    Direct:ws|[fe80::6c4c:7aff:9a18:2816]:5150/ws
+    Direct:ws|[fe80::aa96:bf01:81f1:217e]:5150/ws
+    Direct:ws|[fe80::ab41:7ff5:bb67:f673]:5150/ws
+    Direct:ws|[fe80::fa7c:a452:948:b365]:5150/ws
+    Direct:ws|10.216.198.234:5150/ws
+    Direct:ws|169.254.83.107:5150/ws
+    Direct:ws|172.29.160.1:5150/ws
+    Direct:ws|192.168.1.101:5150/ws
+    Direct:ws|192.168.116.1:5150/ws
+15:04:47  INFO rtab: [LocalNetwork] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:04:47  INFO rtab: [LocalNetwork] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:04:47  INFO rtab: [LocalNetwork] changed network: address types EnumSet()->EnumSet(IPV6 | IPV4)
+15:04:47  INFO rtab: [LocalNetwork] changed network: capabilities []->[RLAY, APPM]
+15:04:47  INFO rtab: [LocalNetwork] changed confirmation: false->true
+15:04:47  INFO net: network started
+15:04:52  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:04:52  INFO rtab: [PublicInternet] changed confirmation: false->true
+15:04:53  INFO rtab: [PublicInternet] relays changed: [] -> [VLD0:MaNMezajDMIba8OcLu7-no09Srv7p1PNC5-uj0YQNy4+nop/pub]
+15:07:19  INFO corectx: Veilid API starting up
+15:07:19  INFO corectx: Build Target: x86_64-pc-windows-msvc
+15:07:19  INFO corectx: Program Name: veilid-server
+15:07:19  INFO corectx: Features:     ["argon2", "blake2", "blake3", "chacha20", "chacha20poly1305", "curve25519-dalek", "default", "default-tokio", "ed25519-dalek", "enable-crypto-vld0", "instrument", "rt-tokio", "tokio", "x25519-dalek"]
+15:07:19  INFO corectx: Version:      0.5.2
+15:07:19  INFO rtab: Public Keys: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:07:19  INFO rtab: Node Ids: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:07:19  INFO stor: Loading record index: local
+15:07:19  INFO stor: Finished loading local in 1.864ms
+15:07:19  INFO stor: Loading record index: remote
+15:07:19  INFO stor: Finished loading remote in 0.425ms
+15:07:19  INFO corectx: Veilid API startup complete
+15:07:19  INFO net: Auto-enabled detection of address changes: global_ipv4=false, global_ipv6=false
+15:07:19  INFO net: UDP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:07:19  INFO net: WS: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:07:19  INFO net: TCP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:07:19  INFO rtab: [PublicInternet] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:07:19  INFO rtab: [PublicInternet] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:07:19  INFO rtab: [PublicInternet] changed network: address types EnumSet()->EnumSet(IPV4)
+15:07:19  INFO rtab: [PublicInternet] changed network: capabilities []->[ROUT, SGNL, RLAY, DIAL, DHTV, APPM]
+15:07:19  INFO rtab: [LocalNetwork] added dial info:
+    Direct:udp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:udp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:udp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:udp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:udp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:udp|10.216.198.234:5150
+    Direct:udp|169.254.83.107:5150
+    Direct:udp|172.29.160.1:5150
+    Direct:udp|192.168.1.101:5150
+    Direct:udp|192.168.116.1:5150
+    Direct:tcp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:tcp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:tcp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:tcp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:tcp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:tcp|10.216.198.234:5150
+    Direct:tcp|169.254.83.107:5150
+    Direct:tcp|172.29.160.1:5150
+    Direct:tcp|192.168.1.101:5150
+    Direct:tcp|192.168.116.1:5150
+    Direct:ws|[fe80::4699:a234:bbfa:3531]:5150/ws
+    Direct:ws|[fe80::6c4c:7aff:9a18:2816]:5150/ws
+    Direct:ws|[fe80::aa96:bf01:81f1:217e]:5150/ws
+    Direct:ws|[fe80::ab41:7ff5:bb67:f673]:5150/ws
+    Direct:ws|[fe80::fa7c:a452:948:b365]:5150/ws
+    Direct:ws|10.216.198.234:5150/ws
+    Direct:ws|169.254.83.107:5150/ws
+    Direct:ws|172.29.160.1:5150/ws
+    Direct:ws|192.168.1.101:5150/ws
+    Direct:ws|192.168.116.1:5150/ws
+15:07:19  INFO rtab: [LocalNetwork] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:07:19  INFO rtab: [LocalNetwork] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:07:19  INFO rtab: [LocalNetwork] changed network: address types EnumSet()->EnumSet(IPV6 | IPV4)
+15:07:19  INFO rtab: [LocalNetwork] changed network: capabilities []->[RLAY, APPM]
+15:07:19  INFO rtab: [LocalNetwork] changed confirmation: false->true
+15:07:19  INFO net: network started
+15:07:24  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:07:24  INFO rtab: [PublicInternet] changed confirmation: false->true
+15:07:26  INFO rtab: [PublicInternet] relays changed: [] -> [VLD0:znqZnOrOoKo5kx9HOvkoBPrO_YSgQ9TeBeV5vbmZ_EA+nop/pub]
+15:08:55  INFO corectx: Veilid API starting up
+15:08:55  INFO corectx: Build Target: x86_64-pc-windows-msvc
+15:08:55  INFO corectx: Program Name: veilid-server
+15:08:55  INFO corectx: Features:     ["argon2", "blake2", "blake3", "chacha20", "chacha20poly1305", "curve25519-dalek", "default", "default-tokio", "ed25519-dalek", "enable-crypto-vld0", "instrument", "rt-tokio", "tokio", "x25519-dalek"]
+15:08:55  INFO corectx: Version:      0.5.2
+15:08:55  INFO rtab: Public Keys: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:08:55  INFO rtab: Node Ids: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:08:55  INFO stor: Loading record index: local
+15:08:55  INFO stor: Finished loading local in 1.754ms
+15:08:55  INFO stor: Loading record index: remote
+15:08:55  INFO stor: Finished loading remote in 0.491ms
+15:08:55  INFO corectx: Veilid API startup complete
+15:08:55  INFO net: Auto-enabled detection of address changes: global_ipv4=false, global_ipv6=false
+15:08:55  INFO net: UDP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:08:55  INFO net: WS: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:08:55  INFO net: TCP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:08:55  INFO rtab: [PublicInternet] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:08:55  INFO rtab: [PublicInternet] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:08:55  INFO rtab: [PublicInternet] changed network: address types EnumSet()->EnumSet(IPV4)
+15:08:55  INFO rtab: [PublicInternet] changed network: capabilities []->[ROUT, SGNL, RLAY, DIAL, DHTV, APPM]
+15:08:55  INFO rtab: [LocalNetwork] added dial info:
+    Direct:udp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:udp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:udp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:udp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:udp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:udp|10.216.198.234:5150
+    Direct:udp|169.254.83.107:5150
+    Direct:udp|172.29.160.1:5150
+    Direct:udp|192.168.1.101:5150
+    Direct:udp|192.168.116.1:5150
+    Direct:tcp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:tcp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:tcp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:tcp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:tcp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:tcp|10.216.198.234:5150
+    Direct:tcp|169.254.83.107:5150
+    Direct:tcp|172.29.160.1:5150
+    Direct:tcp|192.168.1.101:5150
+    Direct:tcp|192.168.116.1:5150
+    Direct:ws|[fe80::4699:a234:bbfa:3531]:5150/ws
+    Direct:ws|[fe80::6c4c:7aff:9a18:2816]:5150/ws
+    Direct:ws|[fe80::aa96:bf01:81f1:217e]:5150/ws
+    Direct:ws|[fe80::ab41:7ff5:bb67:f673]:5150/ws
+    Direct:ws|[fe80::fa7c:a452:948:b365]:5150/ws
+    Direct:ws|10.216.198.234:5150/ws
+    Direct:ws|169.254.83.107:5150/ws
+    Direct:ws|172.29.160.1:5150/ws
+    Direct:ws|192.168.1.101:5150/ws
+    Direct:ws|192.168.116.1:5150/ws
+15:08:55  INFO rtab: [LocalNetwork] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:08:55  INFO rtab: [LocalNetwork] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:08:55  INFO rtab: [LocalNetwork] changed network: address types EnumSet()->EnumSet(IPV6 | IPV4)
+15:08:55  INFO rtab: [LocalNetwork] changed network: capabilities []->[RLAY, APPM]
+15:08:55  INFO rtab: [LocalNetwork] changed confirmation: false->true
+15:08:55  INFO net: network started
+15:09:00  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:09:00  INFO rtab: [PublicInternet] changed confirmation: false->true
+15:09:01  INFO rtab: [PublicInternet] relays changed: [] -> [VLD0:kuJREBsJd7hyj05f9N2aub3yaKL1p3AppK_CuOVQiGM+nop/pub,VLD0:znqZnOrOoKo5kx9HOvkoBPrO_YSgQ9TeBeV5vbmZ_EA+nop/pub]
+15:09:13  INFO rtab: [PublicInternet] relays changed: [VLD0:kuJREBsJd7hyj05f9N2aub3yaKL1p3AppK_CuOVQiGM+nop/pub,VLD0:znqZnOrOoKo5kx9HOvkoBPrO_YSgQ9TeBeV5vbmZ_EA+nop/pub] -> [VLD0:znqZnOrOoKo5kx9HOvkoBPrO_YSgQ9TeBeV5vbmZ_EA+nop/pub]
+15:14:48  INFO corectx: Veilid API starting up
+15:14:48  INFO corectx: Build Target: x86_64-pc-windows-msvc
+15:14:48  INFO corectx: Program Name: veilid-server
+15:14:48  INFO corectx: Features:     ["argon2", "blake2", "blake3", "chacha20", "chacha20poly1305", "curve25519-dalek", "default", "default-tokio", "ed25519-dalek", "enable-crypto-vld0", "instrument", "rt-tokio", "tokio", "x25519-dalek"]
+15:14:48  INFO corectx: Version:      0.5.2
+15:14:48  INFO rtab: Public Keys: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:14:48  INFO rtab: Node Ids: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:14:48  INFO stor: Loading record index: local
+15:14:48  INFO stor: Finished loading local in 1.866ms
+15:14:48  INFO stor: Loading record index: remote
+15:14:48  INFO stor: Finished loading remote in 0.445ms
+15:14:48  INFO corectx: Veilid API startup complete
+15:14:48  INFO net: Auto-enabled detection of address changes: global_ipv4=false, global_ipv6=false
+15:14:48  INFO net: UDP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:14:48  INFO net: WS: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:14:48  INFO net: TCP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:14:48  INFO rtab: [PublicInternet] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:14:48  INFO rtab: [PublicInternet] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:14:48  INFO rtab: [PublicInternet] changed network: address types EnumSet()->EnumSet(IPV4)
+15:14:48  INFO rtab: [PublicInternet] changed network: capabilities []->[ROUT, SGNL, RLAY, DIAL, DHTV, APPM]
+15:14:48  INFO rtab: [LocalNetwork] added dial info:
+    Direct:udp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:udp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:udp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:udp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:udp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:udp|10.216.198.234:5150
+    Direct:udp|169.254.83.107:5150
+    Direct:udp|172.29.160.1:5150
+    Direct:udp|192.168.1.101:5150
+    Direct:udp|192.168.116.1:5150
+    Direct:tcp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:tcp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:tcp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:tcp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:tcp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:tcp|10.216.198.234:5150
+    Direct:tcp|169.254.83.107:5150
+    Direct:tcp|172.29.160.1:5150
+    Direct:tcp|192.168.1.101:5150
+    Direct:tcp|192.168.116.1:5150
+    Direct:ws|[fe80::4699:a234:bbfa:3531]:5150/ws
+    Direct:ws|[fe80::6c4c:7aff:9a18:2816]:5150/ws
+    Direct:ws|[fe80::aa96:bf01:81f1:217e]:5150/ws
+    Direct:ws|[fe80::ab41:7ff5:bb67:f673]:5150/ws
+    Direct:ws|[fe80::fa7c:a452:948:b365]:5150/ws
+    Direct:ws|10.216.198.234:5150/ws
+    Direct:ws|169.254.83.107:5150/ws
+    Direct:ws|172.29.160.1:5150/ws
+    Direct:ws|192.168.1.101:5150/ws
+    Direct:ws|192.168.116.1:5150/ws
+15:14:48  INFO rtab: [LocalNetwork] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:14:48  INFO rtab: [LocalNetwork] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:14:48  INFO rtab: [LocalNetwork] changed network: address types EnumSet()->EnumSet(IPV6 | IPV4)
+15:14:48  INFO rtab: [LocalNetwork] changed network: capabilities []->[RLAY, APPM]
+15:14:48  INFO rtab: [LocalNetwork] changed confirmation: false->true
+15:14:48  INFO net: network started
+15:14:53  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:14:53  INFO rtab: [PublicInternet] changed confirmation: false->true
+15:14:54  INFO rtab: [PublicInternet] relays changed: [] -> [VLD0:znqZnOrOoKo5kx9HOvkoBPrO_YSgQ9TeBeV5vbmZ_EA+nop/pub]
+15:47:29  INFO corectx: Veilid API starting up
+15:47:29  INFO corectx: Build Target: x86_64-pc-windows-msvc
+15:47:29  INFO corectx: Program Name: veilid-server
+15:47:29  INFO corectx: Features:     ["argon2", "blake2", "blake3", "chacha20", "chacha20poly1305", "curve25519-dalek", "default", "default-tokio", "ed25519-dalek", "enable-crypto-vld0", "instrument", "rt-tokio", "tokio", "x25519-dalek"]
+15:47:29  INFO corectx: Version:      0.5.2
+15:47:30  INFO rtab: Public Keys: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:47:30  INFO rtab: Node Ids: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+15:47:30  INFO stor: Loading record index: local
+15:47:30  INFO stor: Finished loading local in 3.772ms
+15:47:30  INFO stor: Loading record index: remote
+15:47:30  INFO stor: Finished loading remote in 0.965ms
+15:47:30  INFO corectx: Veilid API startup complete
+15:47:30  INFO net: Auto-enabled detection of address changes: global_ipv4=false, global_ipv6=false
+15:47:30  INFO net: UDP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:47:30  INFO net: WS: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:47:30  INFO net: TCP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+15:47:30  INFO rtab: [PublicInternet] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:47:30  INFO rtab: [PublicInternet] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:47:30  INFO rtab: [PublicInternet] changed network: address types EnumSet()->EnumSet(IPV4)
+15:47:30  INFO rtab: [PublicInternet] changed network: capabilities []->[ROUT, SGNL, RLAY, DIAL, DHTV, APPM]
+15:47:30  INFO rtab: [LocalNetwork] added dial info:
+    Direct:udp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:udp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:udp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:udp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:udp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:udp|10.216.198.234:5150
+    Direct:udp|169.254.83.107:5150
+    Direct:udp|172.29.160.1:5150
+    Direct:udp|192.168.1.101:5150
+    Direct:udp|192.168.116.1:5150
+    Direct:tcp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:tcp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:tcp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:tcp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:tcp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:tcp|10.216.198.234:5150
+    Direct:tcp|169.254.83.107:5150
+    Direct:tcp|172.29.160.1:5150
+    Direct:tcp|192.168.1.101:5150
+    Direct:tcp|192.168.116.1:5150
+    Direct:ws|[fe80::4699:a234:bbfa:3531]:5150/ws
+    Direct:ws|[fe80::6c4c:7aff:9a18:2816]:5150/ws
+    Direct:ws|[fe80::aa96:bf01:81f1:217e]:5150/ws
+    Direct:ws|[fe80::ab41:7ff5:bb67:f673]:5150/ws
+    Direct:ws|[fe80::fa7c:a452:948:b365]:5150/ws
+    Direct:ws|10.216.198.234:5150/ws
+    Direct:ws|169.254.83.107:5150/ws
+    Direct:ws|172.29.160.1:5150/ws
+    Direct:ws|192.168.1.101:5150/ws
+    Direct:ws|192.168.116.1:5150/ws
+15:47:30  INFO rtab: [LocalNetwork] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:47:30  INFO rtab: [LocalNetwork] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+15:47:30  INFO rtab: [LocalNetwork] changed network: address types EnumSet()->EnumSet(IPV6 | IPV4)
+15:47:30  INFO rtab: [LocalNetwork] changed network: capabilities []->[RLAY, APPM]
+15:47:30  INFO rtab: [LocalNetwork] changed confirmation: false->true
+15:47:30  INFO net: network started
+15:47:35  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:47:35  INFO rtab: [PublicInternet] changed confirmation: false->true
+15:47:35  INFO rtab: [PublicInternet] relays changed: [] -> [VLD0:AbK5lKo56dpatQXvCfSfQT2qNObop6mfrDvXhQ_kB5w+nop/pub]
+15:52:26  INFO rtab: [PublicInternet] relays changed: [VLD0:AbK5lKo56dpatQXvCfSfQT2qNObop6mfrDvXhQ_kB5w+nop/pub] -> [VLD0:77vKX-tvBwZv3ZzuMNVEquUSQkSAz-RjbCzX8xm6QKI+nop/pub]
+15:52:46  INFO rtab: [PublicInternet] relays changed: [VLD0:77vKX-tvBwZv3ZzuMNVEquUSQkSAz-RjbCzX8xm6QKI+nop/pub] -> [VLD0:xj3QhhS93CWhJcQezc1RBXLTNhwV0EKZ3fb1n_29weg+nop/pub]
+15:52:56  INFO rtab: [PublicInternet] changed confirmation: true->false
+15:52:57  INFO rtab: [PublicInternet] removed dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:53:13  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:53:13  INFO rtab: [PublicInternet] changed confirmation: false->true
+15:53:15  INFO rtab: [PublicInternet] relays changed: [VLD0:xj3QhhS93CWhJcQezc1RBXLTNhwV0EKZ3fb1n_29weg+nop/pub] -> [VLD0:c1lEWJb4JjZxOsTukrOtq-zWuv-pThvYK7SNsdX5tZ0+nop/pub,VLD0:SsjX17vi23g_QF5d0tijwxJYzWr4WR14y6FihkGhBf0+nop/pub]
+15:53:15  INFO rtab: [PublicInternet] changed confirmation: true->false
+15:53:16  INFO rtab: [PublicInternet] removed dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:53:19  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:53:19  INFO rtab: [PublicInternet] changed confirmation: false->true
+15:53:26  INFO rtab: [PublicInternet] relays changed: [VLD0:c1lEWJb4JjZxOsTukrOtq-zWuv-pThvYK7SNsdX5tZ0+nop/pub,VLD0:SsjX17vi23g_QF5d0tijwxJYzWr4WR14y6FihkGhBf0+nop/pub] -> [VLD0:SsjX17vi23g_QF5d0tijwxJYzWr4WR14y6FihkGhBf0+nop/pub]
+15:53:37  INFO rtab: [PublicInternet] relays changed: [VLD0:SsjX17vi23g_QF5d0tijwxJYzWr4WR14y6FihkGhBf0+nop/pub] -> [VLD0:sg6QMq6pvJRXTShlrcEOsUPop53tsSJdik0t6eIPhBs+nop/pub]
+15:53:58  INFO rtab: [PublicInternet] relays changed: [VLD0:sg6QMq6pvJRXTShlrcEOsUPop53tsSJdik0t6eIPhBs+nop/pub] -> [VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub]
+15:54:11  INFO rtab: [PublicInternet] changed confirmation: true->false
+15:54:12  INFO rtab: [PublicInternet] removed dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:56:58  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+15:56:58  INFO rtab: [PublicInternet] changed confirmation: false->true
+16:21:00  INFO corectx: Veilid API starting up
+16:21:00  INFO corectx: Build Target: x86_64-pc-windows-msvc
+16:21:00  INFO corectx: Program Name: veilid-server
+16:21:00  INFO corectx: Features:     ["argon2", "blake2", "blake3", "chacha20", "chacha20poly1305", "curve25519-dalek", "default", "default-tokio", "ed25519-dalek", "enable-crypto-vld0", "instrument", "rt-tokio", "tokio", "x25519-dalek"]
+16:21:00  INFO corectx: Version:      0.5.2
+16:21:00  INFO rtab: Public Keys: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+16:21:00  INFO rtab: Node Ids: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+16:21:00  INFO stor: Loading record index: local
+16:21:00  INFO stor: Finished loading local in 2.470ms
+16:21:00  INFO stor: Loading record index: remote
+16:21:00  INFO stor: Finished loading remote in 0.496ms
+16:21:00  INFO corectx: Veilid API startup complete
+16:21:00  INFO net: Auto-enabled detection of address changes: global_ipv4=false, global_ipv6=false
+16:21:00  INFO net: UDP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+16:21:00  INFO net: WS: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+16:21:00  INFO net: TCP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+16:21:00  INFO rtab: [PublicInternet] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+16:21:00  INFO rtab: [PublicInternet] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+16:21:00  INFO rtab: [PublicInternet] changed network: address types EnumSet()->EnumSet(IPV4)
+16:21:00  INFO rtab: [PublicInternet] changed network: capabilities []->[ROUT, SGNL, RLAY, DIAL, DHTV, APPM]
+16:21:00  INFO rtab: [LocalNetwork] added dial info:
+    Direct:udp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:udp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:udp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:udp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:udp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:udp|10.216.198.234:5150
+    Direct:udp|169.254.83.107:5150
+    Direct:udp|172.29.160.1:5150
+    Direct:udp|192.168.1.101:5150
+    Direct:udp|192.168.116.1:5150
+    Direct:tcp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:tcp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:tcp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:tcp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:tcp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:tcp|10.216.198.234:5150
+    Direct:tcp|169.254.83.107:5150
+    Direct:tcp|172.29.160.1:5150
+    Direct:tcp|192.168.1.101:5150
+    Direct:tcp|192.168.116.1:5150
+    Direct:ws|[fe80::4699:a234:bbfa:3531]:5150/ws
+    Direct:ws|[fe80::6c4c:7aff:9a18:2816]:5150/ws
+    Direct:ws|[fe80::aa96:bf01:81f1:217e]:5150/ws
+    Direct:ws|[fe80::ab41:7ff5:bb67:f673]:5150/ws
+    Direct:ws|[fe80::fa7c:a452:948:b365]:5150/ws
+    Direct:ws|10.216.198.234:5150/ws
+    Direct:ws|169.254.83.107:5150/ws
+    Direct:ws|172.29.160.1:5150/ws
+    Direct:ws|192.168.1.101:5150/ws
+    Direct:ws|192.168.116.1:5150/ws
+16:21:00  INFO rtab: [LocalNetwork] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+16:21:00  INFO rtab: [LocalNetwork] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+16:21:00  INFO rtab: [LocalNetwork] changed network: address types EnumSet()->EnumSet(IPV6 | IPV4)
+16:21:00  INFO rtab: [LocalNetwork] changed network: capabilities []->[RLAY, APPM]
+16:21:00  INFO rtab: [LocalNetwork] changed confirmation: false->true
+16:21:00  INFO net: network started
+16:21:05  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+16:21:05  INFO rtab: [PublicInternet] changed confirmation: false->true
+16:21:06  INFO rtab: [PublicInternet] relays changed: [] -> [VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub]
+16:46:55  INFO corectx: Veilid API starting up
+16:46:55  INFO corectx: Build Target: x86_64-pc-windows-msvc
+16:46:55  INFO corectx: Program Name: veilid-server
+16:46:55  INFO corectx: Features:     ["argon2", "blake2", "blake3", "chacha20", "chacha20poly1305", "curve25519-dalek", "default", "default-tokio", "ed25519-dalek", "enable-crypto-vld0", "instrument", "rt-tokio", "tokio", "x25519-dalek"]
+16:46:55  INFO corectx: Version:      0.5.2
+16:46:55  INFO rtab: Public Keys: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+16:46:55  INFO rtab: Node Ids: [VLD0:wYeZM-Xo0HvZkhD8ebBBWxGrGMMJEfF1IeNdBWrnh-o]
+16:46:55  INFO stor: Loading record index: local
+16:46:55  INFO stor: Finished loading local in 2.612ms
+16:46:55  INFO stor: Loading record index: remote
+16:46:55  INFO stor: Finished loading remote in 0.401ms
+16:46:55  INFO corectx: Veilid API startup complete
+16:46:55  INFO net: Auto-enabled detection of address changes: global_ipv4=false, global_ipv6=false
+16:46:55  INFO net: UDP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+16:46:55  INFO net: WS: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+16:46:55  INFO net: TCP: binding protocol handlers at port 5150 on [0.0.0.0, ::]
+16:46:55  INFO rtab: [PublicInternet] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+16:46:55  INFO rtab: [PublicInternet] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+16:46:55  INFO rtab: [PublicInternet] changed network: address types EnumSet()->EnumSet(IPV4)
+16:46:55  INFO rtab: [PublicInternet] changed network: capabilities []->[ROUT, SGNL, RLAY, DIAL, DHTV, APPM]
+16:46:55  INFO rtab: [LocalNetwork] added dial info:
+    Direct:udp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:udp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:udp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:udp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:udp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:udp|10.216.198.234:5150
+    Direct:udp|169.254.83.107:5150
+    Direct:udp|172.29.160.1:5150
+    Direct:udp|192.168.1.101:5150
+    Direct:udp|192.168.116.1:5150
+    Direct:tcp|[fe80::4699:a234:bbfa:3531]:5150
+    Direct:tcp|[fe80::6c4c:7aff:9a18:2816]:5150
+    Direct:tcp|[fe80::aa96:bf01:81f1:217e]:5150
+    Direct:tcp|[fe80::ab41:7ff5:bb67:f673]:5150
+    Direct:tcp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:tcp|10.216.198.234:5150
+    Direct:tcp|169.254.83.107:5150
+    Direct:tcp|172.29.160.1:5150
+    Direct:tcp|192.168.1.101:5150
+    Direct:tcp|192.168.116.1:5150
+    Direct:ws|[fe80::4699:a234:bbfa:3531]:5150/ws
+    Direct:ws|[fe80::6c4c:7aff:9a18:2816]:5150/ws
+    Direct:ws|[fe80::aa96:bf01:81f1:217e]:5150/ws
+    Direct:ws|[fe80::ab41:7ff5:bb67:f673]:5150/ws
+    Direct:ws|[fe80::fa7c:a452:948:b365]:5150/ws
+    Direct:ws|10.216.198.234:5150/ws
+    Direct:ws|169.254.83.107:5150/ws
+    Direct:ws|172.29.160.1:5150/ws
+    Direct:ws|192.168.1.101:5150/ws
+    Direct:ws|192.168.116.1:5150/ws
+16:46:55  INFO rtab: [LocalNetwork] changed network: outbound EnumSet()->EnumSet(UDP | TCP | WS)
+16:46:55  INFO rtab: [LocalNetwork] changed network: inbound EnumSet()->EnumSet(UDP | TCP | WS)
+16:46:55  INFO rtab: [LocalNetwork] changed network: address types EnumSet()->EnumSet(IPV6 | IPV4)
+16:46:55  INFO rtab: [LocalNetwork] changed network: capabilities []->[RLAY, APPM]
+16:46:55  INFO rtab: [LocalNetwork] changed confirmation: false->true
+16:46:55  INFO net: network started
+16:47:00  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+16:47:00  INFO rtab: [PublicInternet] changed confirmation: false->true
+16:47:00  INFO rtab: [PublicInternet] relays changed: [] -> [VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub]
+16:58:55  INFO rtab: [LocalNetwork] removed dial info:
+    Direct:udp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:udp|192.168.1.101:5150
+    Direct:tcp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:tcp|192.168.1.101:5150
+    Direct:ws|[fe80::fa7c:a452:948:b365]:5150/ws
+    Direct:ws|192.168.1.101:5150/ws
+16:58:55  INFO rtab: [PublicInternet] changed confirmation: true->false
+16:58:56  INFO rtab: [PublicInternet] removed dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+17:00:19  INFO rtab: [LocalNetwork] added dial info:
+    Direct:udp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:udp|192.168.1.102:5150
+    Direct:tcp|[fe80::fa7c:a452:948:b365]:5150
+    Direct:tcp|192.168.1.102:5150
+    Direct:ws|[fe80::fa7c:a452:948:b365]:5150/ws
+    Direct:ws|192.168.1.102:5150/ws
+17:00:23  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+17:00:23  INFO rtab: [PublicInternet] changed confirmation: false->true
+17:00:24  INFO rtab: [PublicInternet] relays changed: [VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub] -> [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub]
+17:00:34  INFO rtab: [PublicInternet] relays changed: [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub] -> [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:znqZnOrOoKo5kx9HOvkoBPrO_YSgQ9TeBeV5vbmZ_EA+nop/pub]
+17:00:46  INFO rtab: [PublicInternet] relays changed: [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:znqZnOrOoKo5kx9HOvkoBPrO_YSgQ9TeBeV5vbmZ_EA+nop/pub] -> [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:sg6QMq6pvJRXTShlrcEOsUPop53tsSJdik0t6eIPhBs+nop/pub]
+17:00:56  INFO rtab: [PublicInternet] relays changed: [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:sg6QMq6pvJRXTShlrcEOsUPop53tsSJdik0t6eIPhBs+nop/pub] -> [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:JIN0HWOS0K63pCG0-eYAK4Dqc2kiEeeKzD2lBbwbhtE+nop/pub]
+17:01:07  INFO rtab: [PublicInternet] relays changed: [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:JIN0HWOS0K63pCG0-eYAK4Dqc2kiEeeKzD2lBbwbhtE+nop/pub] -> [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub]
+17:01:18  INFO rtab: [PublicInternet] relays changed: [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:e_pTgLx82QeluN9zx5zmMwmWViFlwqjm_iQfhRk1t4Q+nop/pub,VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub] -> [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub]
+17:10:14  INFO net: PublicInternet address has changed, detecting dial info
+17:10:15  INFO net: PublicInternet address has changed, detecting dial info
+17:10:15  INFO net: PublicInternet address has changed, detecting dial info
+17:10:15  INFO rtab: [PublicInternet] removed dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+17:10:15  INFO rtab: [PublicInternet] changed confirmation: true->false
+17:10:18  INFO rtab: [PublicInternet] added dial info:
+    PortRestrictedNAT:udp|161.8.210.194:5150
+    PortRestrictedNAT:tcp|161.8.210.194:5150
+    PortRestrictedNAT:ws|161.8.210.194:5150/ws
+17:10:18  INFO rtab: [PublicInternet] changed confirmation: false->true
+18:25:59  INFO rtab: [PublicInternet] relays changed: [VLD0:4R16OHJJ0T5brEUJOr5DcZaw2e3KdLbe9GlOsxBYtCk+nop/pub,VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub] -> [VLD0:GEbhVVYo_ga00JSwJUKVgXmcNnhfaXX3rvI9FASyKJI+nop/pub]
