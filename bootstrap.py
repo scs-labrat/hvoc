@@ -57,8 +57,11 @@ def _build_binary() -> str:
         )
         sys.exit(1)
 
-    # Clone if needed
-    if not os.path.isdir(_LOCAL_BUILD_DIR):
+    # Clone if needed (check for Cargo.toml to detect empty/incomplete dir)
+    cargo_toml = os.path.join(_LOCAL_BUILD_DIR, "Cargo.toml")
+    if not os.path.isfile(cargo_toml):
+        if os.path.isdir(_LOCAL_BUILD_DIR):
+            shutil.rmtree(_LOCAL_BUILD_DIR)
         print(f"Cloning veilid into {_LOCAL_BUILD_DIR} ...")
         subprocess.check_call(
             ["git", "clone", _CLONE_URL, _LOCAL_BUILD_DIR],
