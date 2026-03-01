@@ -717,13 +717,33 @@ class ChannelManager:
     # ------------------------------------------------------------------
     # Internal: background tasks
     # ------------------------------------------------------------------
+    def _is_api_dead(self, error: Exception) -> bool:
+        """Check if an error indicates the Veilid API connection is dead."""
+        err_str = str(error).lower()
+        return ("closed veilidapi" in err_str
+                or "closed" in err_str and "veilid" in err_str
+                or "connection" in err_str and ("reset" in err_str or "refused" in err_str))
+
     async def _poll_members_loop(self, ch: IRCChannel):
         log.debug("Starting poll loop for %s", ch.name)
+        consecutive_failures = 0
         while self._running and ch.name in self.channels:
             try:
                 await self._scan_members(ch)
+                consecutive_failures = 0
             except Exception as e:
+                consecutive_failures += 1
+                if self._is_api_dead(e):
+                    log.warning("API connection lost in poll loop for %s: %s",
+                                ch.name, e)
+                    self._running = False
+                    self._notify("Veilid connection lost — use /quit and restart")
+                    return
                 log.debug("Poll error in %s: %s", ch.name, e)
+                if consecutive_failures >= 5:
+                    log.warning("Too many poll failures in %s, backing off", ch.name)
+                    await asyncio.sleep(30)
+                    consecutive_failures = 0
             await asyncio.sleep(5)
         log.debug("Poll loop ended for %s", ch.name)
 
@@ -810,8 +830,11 @@ class ChannelManager:
 
     async def _heartbeat_loop(self, ch: IRCChannel):
         log.debug("Starting heartbeat loop for %s", ch.name)
+        consecutive_failures = 0
         while self._running and ch.name in self.channels:
             await asyncio.sleep(HEARTBEAT_INTERVAL)
+            if not self._running:
+                break
             if ch.my_subkey is None:
                 continue
             try:
@@ -824,8 +847,20 @@ class ChannelManager:
                     "away": self.away_message,
                 }
                 await rc_set(self.rc, ch.dht_key, ch.my_subkey, entry, ch.keypair)
+                consecutive_failures = 0
             except Exception as e:
+                consecutive_failures += 1
+                if self._is_api_dead(e):
+                    log.warning("API connection lost in heartbeat for %s: %s",
+                                ch.name, e)
+                    self._running = False
+                    self._notify("Veilid connection lost — use /quit and restart")
+                    return
                 log.debug("Heartbeat write error in %s: %s", ch.name, e)
+                if consecutive_failures >= 3:
+                    log.warning("Heartbeat failing repeatedly for %s, stopping loop",
+                                ch.name)
+                    return
         log.debug("Heartbeat loop ended for %s", ch.name)
 
     async def _write_metadata(self, ch: IRCChannel):
@@ -892,10 +927,10 @@ def _is_banned(nick: str, bans: list[str]) -> bool:
 
 
 async def rc_set(rc, dht_key, subkey: int, data: dict, keypair):
-    opts = veilid.SetDHTValueOptions(writer=keypair)
-    await rc.set_dht_value(
-        dht_key,
-        veilid.ValueSubkey(subkey),
-        json.dumps(data).encode(),
-        options=opts,
-    )
+    encoded = json.dumps(data).encode()
+    vs = veilid.ValueSubkey(subkey)
+    if hasattr(veilid, "SetDHTValueOptions"):
+        opts = veilid.SetDHTValueOptions(writer=keypair)
+        await rc.set_dht_value(dht_key, vs, encoded, options=opts)
+    else:
+        await rc.set_dht_value(dht_key, vs, encoded, writer=keypair)

@@ -87,6 +87,7 @@ class VeilidIRC:
             app.set_status("Connected to Veilid network")
         except Exception as exc:
             err = str(exc).lower()
+            log.error("VeilidIRC startup failed: %s", exc, exc_info=True)
             app.set_status(f"Veilid error: {exc}")
             self._sys_msg(f"Failed to connect: {exc}")
             if "try again" in err or "unable to allocate" in err:
@@ -94,7 +95,13 @@ class VeilidIRC:
                 self._sys_msg("This can take 1-2 minutes on first run.")
                 self._sys_msg("Wait a bit and restart, or check veilid-server logs.")
             elif "connect" in err or "refused" in err:
-                self._sys_msg("Is veilid-server running? Try: veilid-server &")
+                self._sys_msg("Is veilid-server running on port 5959?")
+                self._sys_msg("Note: port 5150 is P2P only, 5959 is the client API.")
+                self._sys_msg("Try: veilid-server -s client_api.listen_address=localhost:5959")
+            elif "keyring" in err or "protected" in err:
+                self._sys_msg("Keyring/protected-store error.")
+                self._sys_msg("Try starting veilid-server with:")
+                self._sys_msg("  -s protected_store.always_use_insecure_storage=true")
             else:
                 self._sys_msg("Check logs/veilid-irc.log for details.")
             return

@@ -65,20 +65,26 @@ class IRCNet:
     # Veilid update callback
     # ------------------------------------------------------------------
     async def _update_callback(self, update: veilid.VeilidUpdate):
-        if update.kind == veilid.VeilidUpdateKind.APP_MESSAGE:
-            await self._msg_queue.put(update.detail.message)
+        try:
+            if update.kind == veilid.VeilidUpdateKind.APP_MESSAGE:
+                await self._msg_queue.put(update.detail.message)
 
-        elif update.kind == veilid.VeilidUpdateKind.ATTACHMENT:
-            state = str(update.detail.state) if hasattr(update.detail, 'state') else str(update.detail)
-            # Extract just the state name from enum repr
-            if "." in state:
-                state = state.rsplit(".", 1)[-1]
-            old = self._attachment_state
-            self._attachment_state = state
-            log.info("Attachment state: %s → %s", old, state)
-            self._notify(f"Network: {state}")
-            if _is_network_ready(state):
-                self._network_ready.set()
+            elif update.kind == veilid.VeilidUpdateKind.ATTACHMENT:
+                state = str(update.detail.state) if hasattr(update.detail, 'state') else str(update.detail)
+                # Extract just the state name from enum repr
+                if "." in state:
+                    state = state.rsplit(".", 1)[-1]
+                old = self._attachment_state
+                self._attachment_state = state
+                log.info("Attachment state: %s → %s", old, state)
+                self._notify(f"Network: {state}")
+                if _is_network_ready(state):
+                    self._network_ready.set()
+                elif state in ("Detached", "Detaching"):
+                    log.warning("Network detached — connection may be lost")
+                    self._notify(f"Network: {state} — connection may be lost")
+        except Exception as e:
+            log.debug("Error in update callback: %s", e)
 
     # ------------------------------------------------------------------
     # Lifecycle
@@ -261,11 +267,21 @@ class IRCNet:
                     self.channel_mgr.dispatch_message(msg)
 
             except asyncio.TimeoutError:
-                pass
+                # Check if API connection is still alive
+                if self.api and hasattr(self.api, '_closed') and self.api._closed:
+                    log.warning("API connection closed, stopping receive loop")
+                    self.running = False
+                    self._notify("Veilid connection lost")
+                    return
             except asyncio.CancelledError:
                 return
-            except Exception:
-                pass
+            except Exception as e:
+                err_str = str(e).lower()
+                if "closed" in err_str and "veilid" in err_str:
+                    log.warning("API connection lost in receive loop: %s", e)
+                    self.running = False
+                    self._notify("Veilid connection lost")
+                    return
 
     # ------------------------------------------------------------------
     def _notify(self, text: str):

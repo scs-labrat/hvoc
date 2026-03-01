@@ -79,11 +79,13 @@ async def _timed_set(rc, key, subkey: int, data: bytes, writer_keypair,
                      timeout: float = DHT_TIMEOUT):
     """set_dht_value with a timeout."""
     try:
-        opts = veilid.SetDHTValueOptions(writer=writer_keypair)
-        await asyncio.wait_for(
-            rc.set_dht_value(key, veilid.ValueSubkey(subkey), data, options=opts),
-            timeout=timeout,
-        )
+        vs = veilid.ValueSubkey(subkey)
+        if hasattr(veilid, "SetDHTValueOptions"):
+            opts = veilid.SetDHTValueOptions(writer=writer_keypair)
+            coro = rc.set_dht_value(key, vs, data, options=opts)
+        else:
+            coro = rc.set_dht_value(key, vs, data, writer=writer_keypair)
+        await asyncio.wait_for(coro, timeout=timeout)
         return True
     except asyncio.TimeoutError:
         log.warning("DHT write timeout: subkey=%d (%.1fs)", subkey, timeout)
@@ -148,11 +150,14 @@ class IRCDirectory:
 
         # Write directory header
         header = {"name": "public", "type": "irc", "created": time.time(), "v": 2}
-        opts = veilid.SetDHTValueOptions(writer=self.dir_keypair)
-        await rc.set_dht_value(
-            self.dir_key, veilid.ValueSubkey(0),
-            json.dumps(header).encode(), options=opts
-        )
+        header_data = json.dumps(header).encode()
+        vs = veilid.ValueSubkey(0)
+        if hasattr(veilid, "SetDHTValueOptions"):
+            opts = veilid.SetDHTValueOptions(writer=self.dir_keypair)
+            await rc.set_dht_value(self.dir_key, vs, header_data, options=opts)
+        else:
+            await rc.set_dht_value(self.dir_key, vs, header_data,
+                                   writer=self.dir_keypair)
 
         # Persist locally
         await self._db.store(b"dir_key", str(self.dir_key).encode())

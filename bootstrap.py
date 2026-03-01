@@ -57,8 +57,13 @@ def _build_binary() -> str:
         )
         sys.exit(1)
 
-    # Clone if needed
-    if not os.path.isdir(_LOCAL_BUILD_DIR):
+    # Clone if needed — check for Cargo.toml to verify it's a real checkout,
+    # not just an empty or broken directory
+    cargo_toml = os.path.join(_LOCAL_BUILD_DIR, "Cargo.toml")
+    if not os.path.isfile(cargo_toml):
+        if os.path.isdir(_LOCAL_BUILD_DIR):
+            print(f"Found empty/broken veilid dir, removing and re-cloning...")
+            shutil.rmtree(_LOCAL_BUILD_DIR)
         print(f"Cloning veilid into {_LOCAL_BUILD_DIR} ...")
         subprocess.check_call(
             ["git", "clone", _CLONE_URL, _LOCAL_BUILD_DIR],
@@ -94,7 +99,13 @@ def _start_daemon(binary: str) -> subprocess.Popen:
         kwargs["start_new_session"] = True
 
     proc = subprocess.Popen(
-        [binary, "-s", "client_api.network_enabled=true"],
+        [
+            binary,
+            "-s", "client_api.network_enabled=true",
+            "-s", "client_api.listen_address=localhost:5959",
+            "-s", "protected_store.allow_insecure_fallback=true",
+            "-s", "protected_store.always_use_insecure_storage=true",
+        ],
         stdout=log,
         stderr=log,
         **kwargs,
@@ -109,8 +120,14 @@ def _start_daemon(binary: str) -> subprocess.Popen:
         time.sleep(0.5)
 
     print(
-        f"ERROR: veilid-server did not start within {_STARTUP_TIMEOUT}s. "
-        f"Check {_LOG_FILE} for details.",
+        f"ERROR: veilid-server did not open port {_VEILID_PORT} within "
+        f"{_STARTUP_TIMEOUT}s.\n"
+        f"  Check {_LOG_FILE} for details.\n"
+        f"  Common causes:\n"
+        f"    - 'insecure keyring' error: already handled by startup flags\n"
+        f"    - Port conflict: another veilid-server may be running\n"
+        f"    - Firewall blocking localhost:{_VEILID_PORT}\n"
+        f"  Note: port 5150 is the P2P port, {_VEILID_PORT} is the client API.",
         file=sys.stderr,
     )
     proc.kill()
