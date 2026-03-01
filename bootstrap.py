@@ -98,14 +98,11 @@ def _start_daemon(binary: str) -> subprocess.Popen:
     else:
         kwargs["start_new_session"] = True
 
+    # Only use settings keys that exist in veilid-server 0.5.x.
+    # protected_store.allow_insecure_fallback does NOT exist and causes
+    # a fatal error.  client_api port defaults to 5959 already.
     proc = subprocess.Popen(
-        [
-            binary,
-            "-s", "client_api.network_enabled=true",
-            "-s", "client_api.listen_address=localhost:5959",
-            "-s", "protected_store.allow_insecure_fallback=true",
-            "-s", "protected_store.always_use_insecure_storage=true",
-        ],
+        [binary, "-s", "client_api.network_enabled=true"],
         stdout=log,
         stderr=log,
         **kwargs,
@@ -124,9 +121,9 @@ def _start_daemon(binary: str) -> subprocess.Popen:
         f"{_STARTUP_TIMEOUT}s.\n"
         f"  Check {_LOG_FILE} for details.\n"
         f"  Common causes:\n"
-        f"    - 'insecure keyring' error: already handled by startup flags\n"
         f"    - Port conflict: another veilid-server may be running\n"
         f"    - Firewall blocking localhost:{_VEILID_PORT}\n"
+        f"    - veilid-server crashed (check {_LOG_FILE} for panics)\n"
         f"  Note: port 5150 is the P2P port, {_VEILID_PORT} is the client API.",
         file=sys.stderr,
     )
